@@ -1,0 +1,10 @@
+.items-container li{
+    list-style: none;
+    margin: 5px;
+    
+}
+.items-container li:hover{
+    color: red;
+    cursor: pointer;
+
+}
