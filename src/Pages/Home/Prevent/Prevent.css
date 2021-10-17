@@ -1,0 +1,10 @@
+.prevent-img{
+    width: 15%;
+    margin: auto;
+    margin-top: 10px;
+}
+.card-style:hover{
+    border: 1px solid orange;
+    box-shadow: 5px 10px 20px rgb(214, 214, 214);
+    transition: box-shadow .2s;
+}

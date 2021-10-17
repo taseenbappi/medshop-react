@@ -5,4 +5,11 @@
     background-position: center;
     background-blend-mode: overlay;
     height: 100vh;
+    filter: grayscale(30%);
+}
+
+.banner-title{
+    font-weight: 900;
+    font-size: 48px;
+    font-family: sans-serif;
 }
