@@ -1,7 +1,7 @@
 import React from 'react';
 import './Prevention.css';
 import wave from "../../../images/Banner&Background/waves.png"
-import usePrevention from '../../../utilities/usePrevention/usePrevention';
+import usePrevention from '../../../Hooks/usePrevention/usePrevention';
 import Prevent from '../Prevent/Prevent';
 
 const Prevention = () => {
@@ -31,7 +31,7 @@ const Prevention = () => {
             <div className="row row-cols-1 row-cols-md-3 g-4 container m-auto bg-light">
                 {
                     prevents.map(prevention => <Prevent
-                        key={prevents.id}
+                        key={prevention.id}
                         prevention={prevention}
                     >
                     </Prevent>)
